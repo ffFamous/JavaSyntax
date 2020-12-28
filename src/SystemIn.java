@@ -10,3 +10,25 @@ public class SystemIn {
         System.out.println("Через " + sAge + " лет " + name + " захватит мир. Му-ха-ха!");
     }
 }
+class awd {
+    public static void main(String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader (new InputStreamReader(System.in));
+        String Имя = reader.readLine();
+        String число1 = reader.readLine();
+        int ччисло1 = Integer.parseInt(число1);
+        String число2 = reader.readLine();
+        int ччисло2 = Integer.parseInt(число2);
+        System.out.println(Имя + " получает " + число1 + " через " + число2 + " лет.");
+
+    }
+}
+
+class Solution {
+    public static void main(String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader (new InputStreamReader(System.in));
+        String name1 = reader.readLine();
+        String name2 = reader.readLine();
+        String name3 = reader.readLine();
+        System.out.println(name1 + " + " + name2 + " + " + name3 + " = fuck up");
+    }
+}
