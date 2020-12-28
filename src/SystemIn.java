@@ -32,3 +32,17 @@ class Solution {
         System.out.println(name1 + " + " + name2 + " + " + name3 + " = fuck up");
     }
 }
+
+class wasz {
+    public static void main(String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name1 = reader.readLine();
+        String nnumber1 = reader.readLine();
+        int number1 = Integer.parseInt(nnumber1);
+        String nnumber2 = reader.readLine();
+        int number2 = Integer.parseInt(nnumber2);
+        System.out.println("За какие заслуги " + name1 + " посадили в колонию на " + nnumber1 + ", а затем еще на " + nnumber2 +"?");
+
+    }
+}
+
