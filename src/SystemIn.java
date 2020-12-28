@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class SystemIn {
@@ -44,5 +45,21 @@ class wasz {
         System.out.println("За какие заслуги " + name1 + " посадили в колонию на " + nnumber1 + ", а затем еще на " + nnumber2 +"?");
 
     }
+}
+
+class Question {
+    public static void main (String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        String name2 = reader.readLine();
+        String age = reader.readLine();
+        int age1 = Integer.parseInt(age);
+        if (age1 == Integer.parseInt(age)) {
+            System.out.println("Когда " + name + " купил " + name2 + " консоль, у " + name + " осталось " + age + " рублей.");
+    } else {
+            System.out.println("Повторите попытку и введите число");
+        }
+
+}
 }
 
