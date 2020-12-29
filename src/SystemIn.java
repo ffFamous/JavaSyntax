@@ -54,7 +54,7 @@ class Question {
         String name2 = reader.readLine();
         String age = reader.readLine();
         int age1 = Integer.parseInt(age);
-        if (age1 == Integer.parseInt(age)) {
+        if (age1 >=0) {
             System.out.println("Когда " + name + " купил " + name2 + " консоль, у " + name + " осталось " + age + " рублей.");
     } else {
             System.out.println("Повторите попытку и введите число");
@@ -63,3 +63,17 @@ class Question {
 }
 }
 
+class JavaTest {
+    public static void main (String[] args) throws Exception{
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Введите первое имя: ");
+        String name1 = reader.readLine();
+        System.out.println("Введите второе имя: ");
+        String name2 = reader.readLine();
+        System.out.println("Введите время: ");
+        String age = reader.readLine();
+        int age1 = Integer.parseInt(age);
+        System.out.println("Общее время за которое пробежали марафон "
+                + name1 + " и " + name2 + " составило " + age + " секунд.");
+    }
+}

@@ -78,3 +78,34 @@ class NewClass {
 
     }
 }
+
+class Kolya {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Год вашего рождения: ");
+        int age = sc.nextInt();
+        int s = 2020-age;
+        System.out.println("Ваш возраст: " + s + " y.o.");
+    }
+
+}
+
+class Test200 {
+    public static void main (String[] args){
+        Scanner wow = new Scanner(System.in);
+        System.out.println("Введите число: ");
+        int number = wow.nextInt();
+        System.out.println("Вы ввели число: " + number);
+        Scanner wow2 = new Scanner(System.in);
+        System.out.println("Введите второе число: ");
+        int number2 = wow.nextInt();
+        System.out.println("Вы ввели число: " + number2);
+        System.out.println("Введите сумму двух чисел: ");
+        int number3 = wow.nextInt();
+        if (number + number2 == number3) {
+            System.out.println("Ваш ответ: " + number3 + " - верный.");
+        } else {
+            System.out.println("Ответ не верный. Попробуйте снова!");
+        }
+    }
+}
