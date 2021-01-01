@@ -42,7 +42,7 @@ class wasz {
         int number1 = Integer.parseInt(nnumber1);
         String nnumber2 = reader.readLine();
         int number2 = Integer.parseInt(nnumber2);
-        System.out.println("За какие заслуги " + name1 + " посадили в колонию на " + nnumber1 + ", а затем еще на " + nnumber2 +"?");
+        System.out.println("За какие заслуги " + name1 + " фцв" + nnumber1 + ", а затем еще на " + nnumber2 +"?");
 
     }
 }
