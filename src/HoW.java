@@ -145,3 +145,22 @@ class Chaaracters {
 }
 
 
+class TestCheck {
+    public static void main (String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите общее количество шаров: ");
+        double x = scanner.nextInt();
+        System.out.println("Введите количество красных шаров: ");
+        double y = scanner.nextInt();
+        System.out.println("Хотите определить вероятность доставания красного шара из общего " +
+                "количества шаров? yes/no : ");
+        String g = scanner.next();
+        if (g.equals("yes")) {
+            System.out.println("Вероятность вытащить красный шар = " + y/x);
+        } if (g.equals("no")) {
+            System.out.println("Закрыть программу!");
+        }
+        scanner.close();
+    }
+}
+

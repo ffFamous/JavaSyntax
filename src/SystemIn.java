@@ -77,3 +77,10 @@ class JavaTest {
                 + name1 + " и " + name2 + " составило " + age + " секунд.");
     }
 }
+
+class Calc{
+    public static void main (String[] args) {
+
+    }
+
+}
